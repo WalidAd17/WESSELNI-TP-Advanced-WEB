@@ -1,0 +1,100 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(images/cars.jpg);
+}
+
+#main_div{
+    height: 510px;
+    width: 700px;
+    background-color: aliceblue;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    box-shadow: 4px 10px #0070C0;
+}
+
+#top_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bottom_div{
+    width: auto;
+    padding: 5px 30px;
+    
+}
+
+#acteur{
+    background-color: rgb(207, 207, 207);
+}
+
+#Ttop{
+    width: 100%;
+}
+#Tinfos{
+    width: 95%;
+}
+
+select{
+    border-radius: 20%;
+    padding: 5px;
+    border-color: white;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+input{
+    border-radius: 20%;
+    padding: 5px;
+    border-color: white;
+    width: 100%;
+}
+
+#submit_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input#submit{
+    text-align: center;
+    width: 50%;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: auto;
+    background-color: #4493cc;
+    border-color: #4493cc;
+    color: white;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input#submit:hover{
+    background-color: #2a6894;
+    border-color: #2a6894;
+    color: white;
+}
+
+hr{
+    height: 0px;
+    width: 300px;
+    color: black;
+    background-color: black;
+}
+
+.separate{
+    height: 0px;
+    width: 550px;
+    color: black;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
